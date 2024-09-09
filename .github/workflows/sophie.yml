@@ -20,6 +20,6 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
+          username: ${{ secrets.USER_NAME }}
           key: ${{ secrets.KEY }}
           script: whoami
